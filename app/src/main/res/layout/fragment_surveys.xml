@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutSurveys"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".Welcome$PlaceholderFragment"
+    android:gravity="end">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textSurveyFirstName"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="@string/first_name" />
+
+        <EditText
+            android:id="@+id/editFirstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textSurveyFirstName" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textSurveyLastName"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="@string/last_name" />
+
+
+        <EditText
+            android:id="@+id/editLastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textSurveyLastName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textSurveyAddress"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="@string/address" />
+
+
+        <EditText
+            android:id="@+id/editSurveyAddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textSurveyAddress" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textSurveyPostalAddress"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="@string/postal_address" />
+
+
+        <EditText
+            android:id="@+id/editSurveyPostalAdress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textSurveyPostalAddress" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/send" />
+
+    </LinearLayout>
+
+</LinearLayout>
+    

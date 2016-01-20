@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestDroid</string>
+    <string name="title_section">Questions</string>
+    <string name="title_images">Images</string>
+    <string name="title_news">News</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="address">Address</string>
+    <string name="postal_address">Postal Address</string>
+    <string name="send">Send</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="great">Great! Let\'s start!</string>
+    <string name="no_contacts">No Contacts</string>
+    <string name="inline_preferences">Inline preferences</string>
+    <string name="title_checkbox_preference">Checkbox preferences</string>
+    <string name="summary_checkbox_preference">Summary checkbox preferences</string>
+    <string name="dialog_based_preferences">Dialog  based preferences</string>
+    <string name="title_edittext_preference">Edit text preferences</string>
+    <string name="summary_edittext_preference">Edit text summary preferences</string>
+    <string name="dialog_title_edittext_preference">Dialog title edit preferences</string>
+    <string name="title_list_preference">Title list preferences</string>
+    <string name="summary_list_preference">Summary list preferences</string>
+    <string name="dialog_title_list_preference">Dialog title list preferences</string>
+    <string name="launch_preferences">Launch preferences (page break, intent)</string>
+    <string name="title_screen_preference">Title screen preferences</string>
+    <string name="summary_screen_preference">Summary screen preferences</string>
+    <string name="title_next_screen_toggle_preference">Toggle next screen preferences</string>
+    <string name="summary_next_screen_toggle_preference">Summary next screen preferences</string>
+    <string name="title_intent_preference">Open web</string>
+    <string name="summary_intent_preference">Summary open web</string>
+    <string name="preference_attributes">Preferences attributes</string>
+    <string name="title_parent_preference">Title parent preferences</string>
+    <string name="summary_parent_preference">Summary parent preferences</string>
+    <string name="title_child_preference">Title child preferences</string>
+    <string name="summary_child_preference">Summary child preferences</string>
+    <string name="information">Information</string>
+
+</resources>

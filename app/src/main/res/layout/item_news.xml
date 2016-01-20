@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#cdcdcd"
+    tools:context=".Welcome$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/textNewsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:text="Sweden is world champions!" />
+
+    <ImageView
+        android:id="@+id/imageNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@id/textNewsTitle"
+        android:src="@drawable/news" />
+
+    <TextView
+        android:id="@+id/textNewsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageNews"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="10dp"
+        android:textStyle="italic"
+        android:textSize="10dp"
+        android:text="Wednesday, 21 March" />
+
+
+
+</RelativeLayout>

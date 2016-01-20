@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themecolorentries">
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="themecolorvalues">
+        <item>Holo light</item>
+        <item>Holo dark</item>
+    </string-array>
+</resources>

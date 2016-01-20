@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".Welcome$PlaceholderFragment">
+
+    <ImageView
+        android:id="@+id/imageFlickr"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/penguin" />
+
+    <RelativeLayout
+        android:id="@+id/containerImageInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingLeft="15dp"
+        android:layout_toEndOf="@+id/imageFlickr">
+
+        <TextView
+            android:id="@+id/textImageTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:text="Pernilla Uhlin" />
+
+        <TextView
+            android:id="@+id/textImageDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/great"
+            android:layout_below="@id/textImageTitle" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
